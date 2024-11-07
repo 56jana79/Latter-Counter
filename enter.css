@@ -1,0 +1,38 @@
+.container{
+    /* border: 1px solid black; */
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+   
+}
+.container2{
+    
+    background-color:whitesmoke;
+    box-shadow: 5px 5px 2px 2px;
+    display: flex;
+    gap: -20px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 8px;
+}
+textarea{
+  border: 4px outset;
+  box-shadow: 5px 5px 2px 2px;
+  background-color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    text-align:unset;
+   
+}
+
+body{
+    background-color:#c5baba;
+}
+
+@media screen and (max-width:600px) {
+    .container{
+        width: 100%;
+       
+    }
+}
